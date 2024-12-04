@@ -1,16 +1,16 @@
-package src.Day_Two;
+package src.Day_One;
 
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Day_Two_Problem_One {
+public class dayOneProblemOne {
     public static void main(String[] args) {
         int[] leftColumn = null;
         int[] rightColumn = null;
         try {
-            File file = new File("/Users/grahamschomp/IdeaProjects/Advent Of Code/src/Day_One/advent_numbers.txt");
+            File file = new File("src/Day_One/day_one_inputs.txt");
             Scanner scanner = new Scanner(file);
             int totalDifference = 0;
             int timesrun = 0;
